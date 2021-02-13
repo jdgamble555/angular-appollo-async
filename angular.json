@@ -33,7 +33,12 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "subscriptions-transport-ws",
+              "zen-observable",
+              "graphql-tag"
+            ]
           },
           "configurations": {
             "production": {
